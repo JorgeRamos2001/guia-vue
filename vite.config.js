@@ -2,6 +2,7 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
+  base: '/vue-auth-app/',
   plugins: [vue()],   // Habilita soporte para archivos .vue
   test: {
     environment: 'jsdom', // Simula el navegador en las pruebas
