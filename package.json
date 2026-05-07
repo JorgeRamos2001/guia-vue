@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "test": "vitest run",
     "test:watch": "vitest",
+    "homepage": "https://JorgeRamos2001.github.io/guia-vue/",
     "predeploy": "npm run build",
     "deploy":    "gh-pages -d dist"
   },

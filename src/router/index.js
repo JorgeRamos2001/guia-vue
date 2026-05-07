@@ -25,7 +25,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history: createWebHistory(), // URLs limpias sin #
+    history: createWebHistory(import.meta.env.BASE_URL), // URLs limpias sin #
     routes
 })
 
